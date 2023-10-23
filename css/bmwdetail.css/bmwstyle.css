@@ -1,0 +1,19 @@
+@import url(../common/reset.css);
+@import url(../common/header.css);
+@import url(../bmwdetail.css/visual.css);
+@import url(../bmwdetail.css/concept.css);
+@import url(../bmwdetail.css/system.css);
+@import url(../bmwdetail.css/componant.css);
+@import url(../bmwdetail.css/preview.css);
+
+.container{
+    width: 90.384%;
+    margin: 0 auto;
+}
+
+.concept-container,
+.system-container,
+.componant-container,
+.preview-container{
+    margin-top: 140px;
+}

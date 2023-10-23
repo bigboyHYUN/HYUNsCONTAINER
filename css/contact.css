@@ -1,0 +1,193 @@
+.contact-container{
+    width: 90.384%;
+}
+
+.contact-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 633px;
+    margin-top: 32px;
+}
+
+.contact-left,
+.contact-right{
+    width: 37.047vw;
+    height: 633px;
+    position: relative;
+}
+
+.contact-left span + span,
+.contact-right span + span{
+    margin-top: 32px;
+}
+
+.contact-left p,
+.contact-right p{
+    font-size: 22px;
+    color:#979797;
+    font-weight: 300;
+    position: absolute;
+}
+
+.contact-left p{
+    right:0;
+    top: 224px;
+}
+
+.contact-right p{
+    left: 0;
+    top: 224px;
+}
+
+.contact-line{
+    position: relative;
+    height: 100%;
+}
+
+.contact-line::before,
+.contact-line::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 251px;
+    background-color: #1c1c1c;
+}
+
+.contact-line::before{
+    top: 0;
+}
+
+.contact-line::after{
+    bottom: 0;
+}
+
+.contact-line span{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 407px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.contact-line span::before{
+    content: '';
+    display: block;
+    background-color: #F48037;
+    width: 186px;
+    height: 40px;
+    position: absolute;
+    z-index: -1;
+    left: -3px;
+}
+
+.contact-bottom__line{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.contact-bottom__line span{
+    display: block;
+    height: 1px;
+    background-color: #1c1c1c;
+}
+
+.contact-bottom__line1{
+    width: 38.298%;
+    height: 1px;
+    background-color: #1c1c1c;
+    margin: 32px 0 0 calc(100% - 38.298%);
+}
+
+.contact-bottom__line2{
+    width: 58.865%;
+    height: 1px;
+    background-color: #1c1c1c;
+    margin: 32px 0 0 calc(100% - 58.865%);
+}
+
+.contact-bottom__line3{
+    width: 79.433%;
+    height: 1px;
+    background-color: #1c1c1c;
+    margin: 32px 0 0 calc(100% - 79.433%);
+}
+
+.contact-bottom__line4{
+    width: 100%;
+    height: 1px;
+    background-color: #1c1c1c;
+    margin: 32px 0 0 0;
+}
+
+.contact-bottom{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.email{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.email-line{
+    display: block;
+    background-color: #1c1c1c;
+    width: 50.581%;
+    height: 2px;
+    left: 25%;
+    margin: 0 auto;
+}
+
+.contact-end{
+    margin-top: 12px;
+    font-size: 7.980vw;
+}
+
+.contact-bottom::after{
+    content: '';
+    display: block;
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 2px;
+}
+
+.copy{
+    color: #979797;
+    font-weight: 500;
+    margin-top: 16px;
+    height: 80px;
+}
+
+@media (max-width: 1280px){
+    /* .contact-line span{
+        font-size: 2.969vw;
+    } */
+
+    .email{
+        font-size: 2.969vw;
+    }
+    .contact-end{
+        font-size: 7.2vw;
+    }
+    
+    .contact-line span{
+        width: 350px;
+        font-size: 27px;
+    }
+
+    .contact-contents p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px){
+    .email{
+        font-size: 14px;
+    }
+}

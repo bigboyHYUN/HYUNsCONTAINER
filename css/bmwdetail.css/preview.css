@@ -1,0 +1,106 @@
+.preview-container{
+    width: 90.384%;
+}
+
+.preview-title{
+    text-align: center;
+}
+
+.preview-title h3{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.preview-title span{
+    font-size: 14px;
+    color: #979797;
+}
+
+.preview-title::after{
+    content: '';
+    display: block;
+    width: 49.419%;
+    height: 2px;
+    background-color: #1c1c1c;
+    margin: 0 auto;
+}
+
+.view{
+    width: 100%;
+    height: 2400px;
+    background-color: #dbdbdb;
+    margin-top: 32px;
+}
+
+.sub-view{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    position: relative;
+}
+
+.sub-view h5{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.sub-view p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b5b5b;
+    margin-bottom: 16px ;
+}
+
+.tablet{
+    width: 850px;
+    height: 515px;
+    background-color: #dbdbdb;
+}
+
+.mobile{
+    width: 560px;
+    height: 831px;
+    background-color: #dbdbdb;
+}
+
+.sub-view div span{
+    font-size: 16px;
+    color: #3d3d3d;
+    font-weight: 300;
+    position: absolute;
+    bottom: 0;
+}
+
+.preview-container > span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    margin-top: 140px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 140px 0;
+    height: 206px;
+    position: relative;
+}
+
+.footer div h6{
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
+.footer div p{
+    color: #3d3d3d;
+    margin-top: 6px;
+}
+
+.footer div h4{
+    font-size: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

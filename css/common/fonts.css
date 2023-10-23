@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'bodoni';
+    src: url(/fonts/LibreBodoni-Bold.ttf);
+    font-family: 700;
+}
+
+@font-face {
+    font-family: 'bodoni';
+    src: url(/fonts/LibreBodoni-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url(/fonts/Pretendard-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url(/fonts/Pretendard-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url(/fonts/Pretendard-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url(/fonts/Pretendard-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url(/fonts/Pretendard-Light.otf);
+    font-weight: 300;
+}

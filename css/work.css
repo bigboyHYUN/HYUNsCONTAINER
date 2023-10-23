@@ -1,0 +1,246 @@
+.work-contents{
+    margin-top: 32px;
+}
+
+.work-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 693px;
+}
+
+/* even일때 마진 주면 피그마대로 나올꺼임 */
+
+.work-list:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+
+/* .work-list:nth-of-type(even) .work-text{
+    padding-left: 393px;
+} */
+
+.work-list + .work-list{
+    margin-top: 80px;
+}
+
+.work-img,
+.work-text{
+    width: 40.988%;
+}
+
+
+.work-img{
+    background-color: #1c1c1c;
+    position: relative;
+    height: 100%;
+}
+
+.work-img:hover .work-img__info{
+    opacity: 1;
+}
+
+.work-img__info{
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.work-img__info h6{
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.work-img__info h6::after{
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 351px;
+    height: 2px;
+    margin-top: 6px;
+}
+
+.work-img__info ul{
+    display: flex;
+    font-size: 16px;
+}
+
+.work-img__info ul li,
+.work-img__info ul li span{
+    color: #fff;
+}
+
+.work-img__info ul span{
+    display: block;
+}
+
+.work-img__info ul li span:first-of-type{
+    margin-top: 16px;
+}
+
+.work-img__info ul li span + span{
+    margin-top: 6px;
+}
+
+.work-img__info ul li + li{
+    margin-left: 24px;
+}
+
+.work-img__info ul li span:last-of-type{
+    font-weight: 300;
+}
+
+.work-line {
+    position: relative;
+    height: 100%;
+}
+
+.work-line::before,
+.work-line::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 302px;
+    background-color: #1c1c1c;
+}
+
+.work-line::before{
+    top: 0;
+}
+
+.work-line::after{
+    bottom: 0;
+}
+
+.work-line span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+.work-text h3{
+    font-size: 32px;
+}
+
+.work-text p{
+    font-size: 14px;
+    color: #5b5b5b;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.work-text a{
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 17px;
+}
+
+.work-text a p{
+    color: #979797;
+    transition: 0.6s;
+}
+
+.work-text a span{
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: #1c1c1c;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.work-text a span::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 1px;
+    background-color: #1c1c1c;
+    right: 0;
+    rotate: 45deg;
+    bottom: 2px;
+    transition: 0.6s;
+}
+
+.work-text a p:hover{
+    color:#F48037;
+    margin-left: 8px;
+    transition: 0.6s;
+}
+
+.work-text a:hover .arrow{
+    opacity: 1;
+    right:-8px;
+    width: 24px;
+    transition: 0.6s;
+}
+
+@media (max-width: 1280px){
+    .work-contents{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .work-list{
+        display: block;
+        width: 46.094%;
+        height: 620px;
+    }
+
+    .work-list + .work-list{
+        margin: 0;
+    }
+
+
+    .work-img{
+        width: 100%;
+        height: 500px;
+    }
+
+    .work-img__info{
+        display: none;
+    }
+    
+    .work-line{
+        display: none;
+    }
+
+    .work-text{
+        width: 100%;
+        position: relative;
+        margin-top: 16px;
+    }
+
+    /* .work-text p{
+        margin-bottom: 80px;
+    }
+
+    .work-text a{
+        position: absolute;
+        right: 0;
+        top:0;
+    } */
+}
+
+@media (max-width: 500px){
+    .work-contents{
+        display: block;
+    }
+
+    .work-list{
+        width: 100%;
+        height: auto;
+    }
+
+    .work-list + .work-list{
+        margin-top: 70px;
+    }
+}
