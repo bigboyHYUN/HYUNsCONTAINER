@@ -15,13 +15,17 @@
 <body>
     <header>
         <div class="header-container container">
-            <h1 class="logo"><a href="#"></a></h1>
-            <nav>
+            <h1 class="logo">
+                <a href="#">
+                    <img src="/img/logo.png" alt="">
+                </a>
+            </h1>
+            <nav class="pc-gnb">
                 <ul class="gnb">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="menu-common" href="#">Home</a></li>
+                    <li><a class="menu-common" href="#">About</a></li>
+                    <li><a class="menu-common" href="#">Work(3)</a></li>
+                    <li><a class="menu-common" href="#">Contact</a></li>
                 </ul>
             </nav>
             <div class="menu">
@@ -31,10 +35,26 @@
             </div>
         </div>
     </header>
+    <button class="top-btn bodoni">
+        Top
+    </button>
+    <div class="mobile-menu">
+        <div class="background">
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a class="bodoni menu-common" href="#">Home</a></li>
+                    <li><a class="bodoni menu-common" href="#">About</a></li>
+                    <li><a class="bodoni menu-common" href="#">Work(3)</a></li>
+                    <li><a class="bodoni menu-common" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
     <main>
         <section class="visual-container container">
-            <h2 class="main-title bodoni">HYUN'SCONTAINER </h2>
-            <h3 class="sub-title bodoni">Portfolio</h3>
+            <h2 class="main-title bodoni opacity">HYUN'S<br>CONTAINER </h2>
+            <h3 class="sub-title bodoni opacity">Portfolio</h3>
             <div class="main-visual">
                 <div class="main-visual__left">                   
                     <p>언제나 탐구와 배움을 멈추지 않고 항상<br>
@@ -46,11 +66,11 @@
                     <span>안현입니다.</span>
                 </div>
                 <div class="main-visual__right">
-                    <span class="line__top1"></span>
-                    <span class="line__top2"></span>
-                    <span class="line__top3"></span>
-                    <span class="line__top4"></span>
-                    <div class="color-container">
+                    <span class="line__top1 line-left"></span>
+                    <span class="line__top2 line-left"></span>
+                    <span class="line__top3 line-left"></span>
+                    <span class="line__top4 line-left"></span>
+                    <div class="color-container right-in">
                         <div>
                             <h3 class="bodoni">This is<br>HYUN</h3>
                             <div class="color-container__text2">
@@ -63,20 +83,23 @@
                         </div>
                     </div>
                     </div>
-                    <span class="line__bottom1"></span>
-                    <span class="line__bottom2"></span>
-                    <span class="line__bottom3"></span>
-                    <span class="line__bottom4"></span>
+                    <span class="line__bottom1 line-right"></span>
+                    <span class="line__bottom2 line-right"></span>
+                    <span class="line__bottom3 line-right"></span>
+                    <span class="line__bottom4 line-right"></span>
                 </div>
             </div>
         </section>
 
         <section class="about-container container">
-            <h2 class="section-title bodoni">ABOUT</h2>          
+            <h2 class="section-title bodoni opacity">ABOUT</h2>          
             <div class="about-content">
                 <div class="about-left">                                         
                     <h3 class="circle bodoni">WHO IS<br>THE <span class="bodoni">HYUN?</span></h3>                      
-                    <div class="about-img__left"></div>
+                    <div class="about-img__left">
+                        <img class="profile" src="./img/dd.png" alt="">
+                        <img class="glitch-logo glitch" src="./img/logo.png" alt="">
+                    </div>
                     <div class="profile-top">
                         <div>
                             <p class="bodoni">Profile</p>
@@ -130,7 +153,9 @@
                             개척자들의 삶에 동행하는 것입니다. 
                         </p>
                     </div>
-                    <div class="about-img__right"></div>
+                    <div class="about-img__right">
+                        <img src="./img/프사1.png" alt="">
+                    </div>
                     <div>
                         <span class="line__bottom1 maxline"></span>
                         <span class="line__bottom2"></span>
@@ -142,7 +167,7 @@
         </section>
 
         <section class="work-container container">
-                <h2 class="section-title bodoni">WORK</h2>
+                <h2 class="section-title bodoni opacity">WORK</h2>
                 <h3 class="circle bodoni">PORT<span class="bodoni">FOLIO</span>
                     <p class="bodoni">DESIGN & PUBLISHING</p>
                 </h3>
@@ -171,7 +196,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="work-line">
+                        <div class="work-line opacity">
                             <span class="bodoni">#1</span>
                         </div>
                         <div class="work-text">
@@ -209,7 +234,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="work-line">
+                        <div class="work-line opacity">
                             <span class="bodoni">#2</span>
                         </div>
                         <div class="work-text">
@@ -228,25 +253,25 @@
         </section>
 
         <section class="contact-container container">
-            <h2 class="section-title bodoni">CONTACT</h2>
+            <h2 class="section-title bodoni opacity">CONTACT</h2>
             <div class="contact-contents">
                 <div class="contact-left">
-                    <span class="line__top1"></span>
-                    <span class="line__top2"></span>
-                    <span class="line__top3"></span>
-                    <span class="line__top4"></span>
-                    <p class="bodoni">Web Designer</p>
+                    <span class="line__top1 line-left"></span>
+                    <span class="line__top2 line-left"></span>
+                    <span class="line__top3 line-left"></span>
+                    <span class="line__top4 line-left"></span>
+                    <p class="bodoni contact-js">Web Designer</p>
                 </div>
-                <div class="contact-line">
-                    <span>같이 일할 인재를 찾고 계신가요?</span>
+                <div class="contact-line opacity-a">
+                    <span class="opacity-b">같이 일할 인재를 찾고 계신가요?</span>
                 </div>
                 <div class="contact-right">
-                    <p class="bodoni">Web Publisher</p>
+                    <p class="bodoni contact-js__right">Web Publisher</p>
                     <div class="contact-bottom__line">
-                        <span class="contact-bottom__line1"></span>
-                        <span class="contact-bottom__line2"></span>
-                        <span class="contact-bottom__line3"></span>
-                        <span class="contact-bottom__line4"></span>
+                        <span class="contact-bottom__line1 line-right"></span>
+                        <span class="contact-bottom__line2 line-right"></span>
+                        <span class="contact-bottom__line3 line-right"></span>
+                        <span class="contact-bottom__line4 line-right"></span>
                     </div>
                 </div>
             </div>
@@ -258,5 +283,7 @@
             <h4 class="copy bodoni">ⓒDesign by HYUN</h4>
         </section>
     </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/app.js" type="module"></script>
 </body>
 </html>

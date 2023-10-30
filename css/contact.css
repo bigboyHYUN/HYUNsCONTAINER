@@ -176,10 +176,10 @@
         font-size: 7.2vw;
     }
     
-    .contact-line span{
+    /* .contact-line span{
         width: 350px;
         font-size: 27px;
-    }
+    } */
 
     .contact-contents p{
         font-size: 18px;
@@ -190,4 +190,10 @@
     .email{
         font-size: 14px;
     }
+
+    .contact-line span{
+        width: 380px;
+        font-size: 27px;
+    }
+
 }

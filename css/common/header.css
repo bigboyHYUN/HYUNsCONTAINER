@@ -3,13 +3,22 @@
     justify-content: space-between;
     height: 59px;
     border-bottom: 2px solid #1c1c1c;
+    /* position: fixed;
+    z-index: 9999;
+    left: 50%;
+    transform: translateX(-50%); */
 }
 
 .logo{
     width: 48px;
     height: 48px;
-    background-color: black;
     margin-top: 4px;
+}
+
+.logo a img{
+    margin-top: 16px;
+    width: 52px;
+    height: 20px;
 }
 
 .gnb{
@@ -24,12 +33,14 @@
     margin-left: 100px;
     color: #6f6f6f;
     font-weight: 300;
-    transition: 0.6s;
+    transition: 0.4s;
 }
 
-.gnb li:hover{
+.gnb li + li:hover{
     color: #1c1c1c;
-    transition: 0.6s;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.4s;
 }
 
 .menu{
@@ -37,6 +48,8 @@
     height: 16px;
     position: relative;
     display: none;
+    transition: 0.6s;
+    cursor: pointer;
 }
 
 .menu span{
@@ -45,10 +58,12 @@
     height: 2px;
     background-color: #1c1c1c;
     position: absolute;
+    transition: 0.4s;
 }
 
 .menu span:first-of-type{
     top: 0;
+    transform: rotate(0);
 }
 
 .menu span:nth-of-type(2){
@@ -58,10 +73,11 @@
 
 .menu span:last-of-type{
     bottom: 0px;
+    transform: rotate(0);
 }
 
 @media (max-width: 1280px){
-    nav{
+    .pc-gnb{
         display: none;
     }
 
