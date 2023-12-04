@@ -253,7 +253,8 @@
     }
 
 
-    .work-img{
+    .work-img__first,
+    .work-img__two{
         width: 100%;
         height: 500px;
     }
