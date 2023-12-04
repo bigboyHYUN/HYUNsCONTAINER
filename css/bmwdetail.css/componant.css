@@ -23,19 +23,6 @@
     margin-left: 20px;
 }
 
-@media (max-width: 1280px){
-    /* .componant-f,
-    .componant-s{
-        display: block;
-        margin: 0;
-    }
-
-    .componant-f > div:nth-of-type(even),
-    .componant-s > div:nth-of-type(even){
-        margin:0;
-    } */
-
-}
 
 @media (max-width:870px){
     .componant-f,

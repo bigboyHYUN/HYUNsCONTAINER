@@ -9,42 +9,41 @@
     height: 693px;
 }
 
-/* even일때 마진 주면 피그마대로 나올꺼임 */
 
 .work-list:nth-of-type(even){
     flex-direction: row-reverse;
 }
 
-/* .work-list:nth-of-type(even) .work-text{
-    padding-left: 393px;
-} */
 
 .work-list + .work-list{
     margin-top: 80px;
 }
 
-.work-img,
 .work-text{
     width: 40.988%;
 }
 
-.work-img:first-of-type{
+.work-img__first{
     background: url('/img/news-ev.png') no-repeat center / cover;
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
     height: 100%;
+    width: 40.988%;
 }
 
+.work-img__two{
+    background: url('/img/alex.png') no-repeat center / cover;
+    position: relative;
+    height: 100%;
+    width: 40.988%;
+}
 
 .work-img:nth-of-type(2){
     background-color: #1c1c1c;
     position: relative;
     height: 100%;
-    
 }
 
-.work-img:hover .work-img__info{
+.info-hover:hover .work-img__info{
     opacity: 1;
 }
 
@@ -55,6 +54,7 @@
     opacity: 0;
     transition: 0.6s;
 }
+
 
 .work-img__info h6{
     font-size: 32px;
@@ -85,11 +85,11 @@
     display: block;
 }
 
-.work-img__info ul li span:first-of-type{
+.work-img__info ul li > span:first-of-type{
     margin-top: 16px;
 }
 
-.work-img__info ul li span + span{
+.work-img__info ul li > span + span{
     margin-top: 6px;
 }
 
@@ -97,8 +97,51 @@
     margin-left: 24px;
 }
 
-.work-img__info ul li span:last-of-type{
+.work-img__info ul li > span:last-of-type{
     font-weight: 300;
+}
+
+.bmw-color,
+.alex-color{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.bmw-color span,
+.alex-color span{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.bmw-color span + span,
+.alex-color span + span{
+    margin-left: 6px;
+}
+
+.bmw-color span:first-of-type{
+    background-color: #1C69D4;
+}
+
+.bmw-color span:nth-of-type(2){
+    background-color: #1B8DFA;
+}
+
+.bmw-color span:nth-of-type(3){
+    background-color: #424242;
+}
+
+.alex-color span:first-of-type{
+    background-color: #ED6E00;
+}
+
+.alex-color span:nth-of-type(2){
+    background-color: #FCF7F1;
+}
+
+.alex-color span:nth-of-type(3){
+    background-color: #5B5B5B;
 }
 
 .work-line {

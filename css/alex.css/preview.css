@@ -1,0 +1,147 @@
+.preview-container{
+    width: 90.384%;
+}
+
+.preview-title{
+    text-align: center;
+}
+
+.preview-title h3{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.preview-title span{
+    font-size: 14px;
+    color: #979797;
+}
+
+.preview-title::after{
+    content: '';
+    display: block;
+    width: 49.419%;
+    height: 2px;
+    background-color: #1c1c1c;
+    margin: 0 auto;
+}
+
+
+.view img{
+    width: 100%;
+    height: 100%;
+    margin-top: 32px;
+    border: 1px solid #1c1c1c;
+}
+
+.sub-view{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    position: relative;
+}
+
+.sub-view img{
+    width: 44.666vw;
+    height: 100%;
+    border: 1px solid #1c1c1c;
+}
+
+.sub-view h5{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.sub-view p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b5b5b;
+    margin-bottom: 16px;
+}
+
+.mobile img{
+    width: 29.427vw;
+    height: 100%;
+    background-color: #dbdbdb;
+    border: 1px solid #1c1c1c;
+}
+
+.sub-view div:first-of-type span{
+    font-size: 16px;
+    color: #3d3d3d;
+    font-weight: 300;
+    position: absolute;
+    bottom: 0;
+}
+
+.sub-view div:nth-of-type(2){
+    position: relative;
+}
+
+.sub-view div:nth-of-type(2) span{
+    display: none;
+}
+
+.preview-container > span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    margin-top: 140px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 140px 0;
+    height: 206px;
+    position: relative;
+}
+
+.footer div h6{
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
+.footer div p{
+    color: #3d3d3d;
+    margin-top: 6px;
+}
+
+.footer div h4{
+    font-size: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width:870px){
+    .sub-view{
+        display: block;
+    }
+    .sub-view div:nth-of-type(2){
+        margin-top: 32px;
+    }
+
+    .tablet{
+        width: 100%;
+    }
+
+    .mobile{
+        width: 50%;
+    }
+
+    .sub-view div:first-of-type span{
+        display: none;
+    }
+
+    .sub-view div:nth-of-type(2) span{
+        display: block;
+        font-size: 16px;
+        color: #3d3d3d;
+        font-weight: 300;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

@@ -25,11 +25,12 @@
     margin: 0 auto;
 }
 
-.view{
+
+.view img{
     width: 100%;
-    height: 2400px;
-    background-color: #dbdbdb;
+    height: 100%;
     margin-top: 32px;
+    border: 1px solid #1c1c1c;
 }
 
 .sub-view{
@@ -37,6 +38,12 @@
     justify-content: space-between;
     margin-top: 140px;
     position: relative;
+}
+
+.sub-view img{
+    width: 44.666vw;
+    height: 100%;
+    border: 1px solid #1c1c1c;
 }
 
 .sub-view h5{
@@ -48,19 +55,14 @@
     font-size: 14px;
     font-weight: 300;
     color: #5b5b5b;
-    margin-bottom: 16px ;
+    margin-bottom: 16px;
 }
 
-.tablet{
-    width: 44.666vw;
-    height: 515px;
-    background-color: #dbdbdb;
-}
-
-.mobile{
+.mobile img{
     width: 29.427vw;
-    height: 831px;
+    height: 100%;
     background-color: #dbdbdb;
+    border: 1px solid #1c1c1c;
 }
 
 .sub-view div:first-of-type span{

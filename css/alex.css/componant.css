@@ -1,0 +1,37 @@
+.componant-f,
+.componant-s{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.componant-f div div:nth-of-type(2),
+.componant-s div div:nth-of-type(2){
+    width: 100%;
+    border: 1px solid #1c1c1c;
+    margin-top: 32px;
+}
+
+.componant-f div div:nth-of-type(2) img,
+.componant-s div div:nth-of-type(2) img{
+    width: 100%;
+}
+
+.componant-f > div:nth-of-type(even),
+.componant-s > div:nth-of-type(even){
+    margin-left: 20px;
+}
+
+
+@media (max-width:870px){
+    .componant-f,
+    .componant-s{
+        display: block;
+    }
+
+    .componant-f > div:nth-of-type(even),
+    .componant-s > div:nth-of-type(even){
+    margin:0;
+    }
+}
