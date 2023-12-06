@@ -164,15 +164,17 @@
     height: 80px;
 }
 
-@media (max-width: 1280px){
-    
+.contact-end br{
+    display: none;
+}
+
+@media (max-width: 1280px){ 
     .email{
         font-size: 2.969vw;
     }
     .contact-end{
         font-size: 7.2vw;
     }
-    
 
     .contact-contents p{
         font-size: 18px;
@@ -188,5 +190,27 @@
         width: max-content;
         font-size: 27px;
     }
+    
+    .contact-line span{
+        left: 50%;
+        transform: translate(-50%, -50%) !important;
+        width: 190px;
+        font-size: 28px;
+        text-align: center;
+    }
 
+    .contact-end{
+        font-size: 15vw;
+        line-height: 60px;
+        margin: 16px 0;
+    }
+    
+    .contact-end br{
+        display: block;
+    }
+
+    .email{
+        font-size: 24px;
+        line-height: 50px;
+    }
 }

@@ -144,4 +144,12 @@
         bottom: 0;
         right: 0;
     }
+
+    .sub-view img{
+        width: 100%;
+    }
+
+    .mobile img{
+        width: 100%;
+    }
 }

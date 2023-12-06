@@ -66,13 +66,6 @@
 .main-visual__right span + span{
     margin-top: 32px;
 }
-/* 
-.main-visual__cross{
-    display: block;
-    background-color: #1c1c1c;
-    width: 1px;
-    height: 519px;
-} */
 
 .main-visual__cross span{
     display: none;
@@ -100,7 +93,6 @@
 }
 
 .color-container h3{
-    /* width: calc(100% - 76.879%); */
     top: 0;
     left: 0;
     font-size: 32px;
@@ -118,13 +110,11 @@
 .color-container h4{
     font-size: 30px;
     font-weight: 500;
-    /* margin: 120px 4.539% 0 46.525%; */
 
 }
 .color-container ul{
     font-size: 16px;
     margin-top: 32px;
-    /* margin: 35px 163px 0 328px; */
 }
 
 .color-container ul li + li{
@@ -217,7 +207,6 @@
     
     .main-title{
         font-size: 15vw;
-        /* font-weight: 500; */
         line-height: 70px;
         margin: 16px 0;
     }

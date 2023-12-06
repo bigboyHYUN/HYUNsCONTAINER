@@ -288,4 +288,14 @@
     .work-list + .work-list{
         margin-top: 70px;
     }
+
+    .work-list{
+        width: 100%;
+        height: auto;
+    }
+
+    .work-img__first,
+    .work-img__two{
+        height: 300px;
+    } 
 }

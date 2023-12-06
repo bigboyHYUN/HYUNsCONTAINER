@@ -157,4 +157,9 @@
     .about-right__text br{
         display: none;
     }
+
+    .bottom-text{
+        margin-left:0;
+    }
+
 }
