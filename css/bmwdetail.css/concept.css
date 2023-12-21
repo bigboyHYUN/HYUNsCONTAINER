@@ -5,6 +5,7 @@
 
 .box-container{
     width: 49.419%;
+    
     margin: 0 auto;
 }
 
@@ -28,6 +29,7 @@
 
 .about{
     margin-top: 16px;
+    margin-bottom: 101px;
 }
 
 .about h4{
@@ -55,14 +57,21 @@
 .go-btn{
     width: 177px;
     height: 43px;
-    border: 1px solid #1c1c1c;
-    margin-top: 101px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     padding: 12px 16px;
     transition: 0.6s;
+}
+
+.btn-area:first-of-type .go-btn{
+    border: 1px solid #1c1c1c;
+}
+
+.btn-area:nth-of-type(2) .go-btn{
+    background-color: #1c1c1c;
+    color: #fff;
 }
 
 .arrow{
@@ -73,7 +82,6 @@
     display: block;
     width: 20px;
     height: 1px;
-    background-color: #1c1c1c;
     margin-top: 6px;
     transition: 0.6s;
 }
@@ -83,13 +91,29 @@
     display: block;
     width: 6px;
     height: 1px;
-    background-color: #1c1c1c;
     right: 0;
     rotate: 45deg;
     top: 21px;
     right: 16px;
     transition: 0.6s;
 }
+
+.btn-area:first-of-type .go-btn span{
+    background-color: #1c1c1c;
+}
+
+.btn-area:first-of-type .go-btn span + span{
+    background-color: #1c1c1c;
+}
+
+.btn-area:nth-of-type(2) .go-btn span{
+    background-color: #fff;
+}
+
+.btn-area:nth-of-type(2) .go-btn span + span{
+    background-color: #fff;
+}
+
 
 .btn-area:hover{
     background-color: #1c1c1c;
@@ -100,11 +124,29 @@
     color: #fff;
 }
 
-.go-btn:hover .arrow{
+.btn-area:nth-of-type(2) .go-btn:hover{
+    background-color: #F48037;
+    color: #1c1c1c;
+    font-weight: 500;
+}
+
+.btn-area:first-of-type .go-btn:hover .arrow{
     background-color: #fff;
     transform: 0.6s;
 }
 
+.btn-area:nth-of-type(2) .go-btn:hover .arrow{
+    background-color: #1c1c1c;
+    transform: 0.6s;
+}
+
+.concept-btn{
+    display: flex;
+}
+
+.concept-btn div + div{
+    margin-left: 24px;
+}
 
 @media (max-width:1280px){
     .about p br{
