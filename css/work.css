@@ -28,6 +28,7 @@
     position: relative;
     height: 100%;
     width: 40.988%;
+    display: block;
 }
 
 .work-img__two{
@@ -35,6 +36,7 @@
     position: relative;
     height: 100%;
     width: 40.988%;
+    display: block;
 }
 
 .work-img:nth-of-type(2){
@@ -44,7 +46,22 @@
 }
 
 .info-hover:hover .work-img__info{
+    opacity: 1; 
+}
+
+.info-gradient{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0.00) 49.93%, rgba(28, 28, 28, 0.80) 90.19%);
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.info-gradient:hover{
     opacity: 1;
+    transition: 0.6s;
 }
 
 .work-img__info{
@@ -54,7 +71,6 @@
     opacity: 0;
     transition: 0.6s;
 }
-
 
 .work-img__info h6{
     font-size: 32px;
@@ -189,13 +205,14 @@
 .work-text a{
     display: flex;
     position: relative;
-    width: 100px;
+    width: 110px;
     height: 17px;
 }
 
 .work-text a p{
-    color: #979797;
+    color: #3d3d3d;
     transition: 0.6s;
+    font-size: 18px;
 }
 
 .work-text a span{
@@ -231,7 +248,7 @@
 
 .work-text a:hover .arrow{
     opacity: 1;
-    right:-8px;
+    right: -20px;
     width: 24px;
     transition: 0.6s;
 }
@@ -252,7 +269,6 @@
         margin: 0;
     }
 
-
     .work-img__first,
     .work-img__two{
         width: 100%;
@@ -271,6 +287,10 @@
         width: 100%;
         position: relative;
         margin-top: 16px;
+    }
+
+    .info-gradient{
+        display: none;
     }
 
 }

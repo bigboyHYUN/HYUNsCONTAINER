@@ -110,7 +110,6 @@
     margin-top: 32px;
 }
 
-
 .circle span{
     display: inline-block;
     width: 158px;
@@ -143,5 +142,24 @@
 @media (max-width: 1280px){
     .container{
         width: 93.595%;
+    }
+
+    .circle::after{
+        width: 40.527%;
+    }
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 92%;
+    }
+
+    .circle::after{
+        width: 78%;
+    }
+
+    .top-btn{
+        right: 15px;
+        bottom: 15px;
     }
 }

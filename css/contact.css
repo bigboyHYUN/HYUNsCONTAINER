@@ -213,4 +213,9 @@
         font-size: 24px;
         line-height: 50px;
     }
+
+    .contact-line span::before{
+        width: 166px;
+        height: 36px;
+    }
 }
