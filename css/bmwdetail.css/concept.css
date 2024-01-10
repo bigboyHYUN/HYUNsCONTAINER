@@ -48,12 +48,6 @@
     line-height: 22px;
 }
 
-.btn-area{
-    width: 177px;
-    height: 43px;
-    transition: 0.6s;
-}
-
 .go-btn{
     width: 177px;
     height: 43px;
@@ -65,13 +59,9 @@
     transition: 0.6s;
 }
 
-.btn-area:first-of-type .go-btn{
+.btn-area .go-btn{
     border: 1px solid #1c1c1c;
-}
-
-.btn-area:nth-of-type(2) .go-btn{
-    background-color: #1c1c1c;
-    color: #fff;
+    font-weight: 500;
 }
 
 .arrow{
@@ -98,45 +88,18 @@
     transition: 0.6s;
 }
 
-.btn-area:first-of-type .go-btn span{
+.btn-area .go-btn span{
     background-color: #1c1c1c;
 }
 
-.btn-area:first-of-type .go-btn span + span{
-    background-color: #1c1c1c;
-}
-
-.btn-area:nth-of-type(2) .go-btn span{
-    background-color: #fff;
-}
-
-.btn-area:nth-of-type(2) .go-btn span + span{
-    background-color: #fff;
-}
-
-
-.btn-area:hover{
+.btn-area .go-btn:hover{
     background-color: #1c1c1c;
     transition: 0.6s;
-}
-
-.go-btn:hover{
     color: #fff;
 }
 
-.btn-area:nth-of-type(2) .go-btn:hover{
-    background-color: #F48037;
-    color: #1c1c1c;
-    font-weight: 500;
-}
-
-.btn-area:first-of-type .go-btn:hover .arrow{
+.btn-area .go-btn:hover .arrow{
     background-color: #fff;
-    transform: 0.6s;
-}
-
-.btn-area:nth-of-type(2) .go-btn:hover .arrow{
-    background-color: #1c1c1c;
     transform: 0.6s;
 }
 
@@ -161,6 +124,24 @@
 @media (max-width:768px){
     .box-container{
         width: 100%;
+    }
+}
+
+@media (max-width:500px){
+    .concept-btn{
+        display: block;
+    }
+
+    .go-btn{
+        width: 350px;
+    }
+    
+    .concept-btn div + div{
+        margin: 16px 0 0;
+    }
+
+    .about {
+        margin-bottom: 48px;
     }
 }
 

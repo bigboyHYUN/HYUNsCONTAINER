@@ -255,11 +255,6 @@
     .font-img{
         width: 100%;
     }
-
-    /* .font-img div div img,
-    .font-img div div{
-        width: 70%;
-    } */
 }
 
 @media (max-width:870px){
@@ -291,5 +286,9 @@
     .color-text p,
     .font-text p{
         line-height: 20px;
+    }
+
+    .title-first2{
+        margin-top: 80px;
     }
 }

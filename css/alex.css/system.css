@@ -51,10 +51,6 @@
     font-weight:500;
 }
 
-.primary__2 p{
-    color: #1c1c1c;
-}
-
 .color-bar{
     margin-top: 32px;
 }
@@ -160,6 +156,10 @@
 
 .color-text div:last-of-type{
     margin-top: 148px;
+}
+
+.primary__2 p{
+    color: #1c1c1c !important;
 }
 
 .font{
@@ -268,5 +268,9 @@
     .color-text p,
     .font-text p{
         line-height: 20px;
+    }
+
+    .title-first2{
+        margin-top: 80px;
     }
 }
