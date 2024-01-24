@@ -182,10 +182,6 @@
 }
 
 @media (max-width: 500px){
-    .email{
-        font-size: 14px;
-    }
-
     .contact-line span{
         width: max-content;
         font-size: 27px;
@@ -201,8 +197,8 @@
 
     .contact-end{
         font-size: 15vw;
-        line-height: 60px;
-        margin: 16px 0;
+        line-height: 70px;
+        margin-top: 16px;
     }
     
     .contact-end br{
@@ -211,11 +207,15 @@
 
     .email{
         font-size: 24px;
-        line-height: 50px;
+        line-height: inherit;
     }
 
     .contact-line span::before{
         width: 166px;
         height: 36px;
+    }
+
+    .email-line{
+        width: 64%;
     }
 }

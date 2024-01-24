@@ -101,6 +101,10 @@
     position: relative;
 }
 
+.circle p{
+    font-size: 30px;
+}
+
 .circle::after{
     content: '';
     display: block;
@@ -147,9 +151,17 @@
     .circle::after{
         width: 40.527%;
     }
+
+    .section-title{
+        margin-top: 120px;
+    }
 }
 
 @media (max-width: 500px){
+    .section-title{
+        margin-top: 100px;
+    }
+
     .container{
         width: 92%;
     }
@@ -161,5 +173,21 @@
     .top-btn{
         right: 15px;
         bottom: 15px;
+    }
+    
+    .line__bottom1{
+        margin: 24px 0 0 calc(100% - 38.298%);
+    }
+
+    .line__bottom2{
+        margin: 24px 0 0 calc(100% - 58.865%);
+    }
+
+    .line__bottom3{
+        margin: 24px 0 0 calc(100% - 79.433%);
+    }
+
+    .line__bottom4{
+        margin: 24px 0 0 0;
     }
 }

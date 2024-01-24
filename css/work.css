@@ -296,6 +296,10 @@
 }
 
 @media (max-width: 500px){
+    .work-img__first{
+        background: url('/img/news-ev__mobile.png') no-repeat center / cover;
+    }
+
     .work-contents{
         display: block;
     }
