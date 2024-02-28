@@ -29,7 +29,7 @@
 .main-visual{
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
+    margin-top: 10px;
     height: 551px;
 }
 
